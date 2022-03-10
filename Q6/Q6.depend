@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1646903731 source:c:\users\yash\desktop\c programming fm\q6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
