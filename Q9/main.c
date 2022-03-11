@@ -5,14 +5,15 @@
 
 int main()
 {
-    int i,j,m,a[50];
-    printf("Enter the number of elements: ");
-    scanf("%d",&m);
-    printf("Enter the array: ");
+    int i,j,m,a[100],count=0;
+    printf("Enter the elements, enter 50 to stop: ");
     for(i=0;i<m;i++)
     {
         scanf("%d",&a[i]);
+        if(a[i]==50)
+            break;
+        count++;
     }
-    printf("The size of the array is: %d", m*sizeof(a[0]));
+    printf("The size of the array is (excluding 50): %d", count);
     return 0;
 }
